@@ -15,3 +15,160 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+
+main { 
+   display: flex;
+   max-width: 60%;
+   height: max-content;
+   margin: 20px auto;
+   border: black solid 1px;
+}
+
+main * {
+   display: flex;
+}
+
+.left-content {
+   background-color: #D8ECFF;
+   order: 1;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 35%;
+   padding: 15px;
+}
+
+.left-content * {
+   flex-direction: column;
+}
+
+
+section{
+   flex-direction: column;
+}
+
+
+header {
+   flex-direction: column;
+   justify-content: center;
+}
+
+header * {
+   justify-content: center;
+   align-items: center;
+}
+
+
+.avatar {
+   margin: 10px;
+   justify-content: center;
+   width:95px;
+   height: 95px;
+   border-radius: 50%;
+   border: 3px solid #FFFFFF;
+}
+
+.name-container{
+ margin: 16px;
+}
+
+.name{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 22px;
+   color: #424242;
+}
+
+.subname{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 14px;
+   color: #424242;
+}
+
+.left-content__title{
+   background: #424242;
+   align-items: center;
+   width: 100%;
+   height: 35px;
+   text-align: center;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   text-align: center;
+   letter-spacing: 0.08em;
+   text-transform: uppercase;
+   line-height: 12px;
+   color: #FFFFFF;
+
+}
+
+.left-content__item * {
+   display: inline-block;
+   margin: 12px;
+   font-family: Open Sans;
+   font-size: 16px;
+   line-height: 22px;
+   letter-spacing: 0.04em;
+}
+
+.contact__location:before{
+   margin: 0 5px;
+   display: inline-block;
+   content: '';
+   width: 16px;
+   height: 16px;
+   background: url(./img/icons/location.svg) 50% 3px no-repeat;
+}
+
+.contact__birhdate:before{
+   margin: 0 5px;
+   display: inline-block;
+   content: '';
+   width: 16px;
+   height: 16px;
+   background: url(./img/icons/birthday.svg) 50% 3px no-repeat;
+}
+
+.contact__phone-number:before{
+   margin: 0 5px;
+   display: inline-block;
+   content: '';
+   width: 16px;
+   height: 16px;
+   background: url(./img/icons/phone.svg) 50% 3px no-repeat;
+}
+
+.contact__email:before{
+   margin: 0 5px;
+   display: inline-block;
+   content: '';
+   width: 16px;
+   height: 16px;
+   background: url(./img/icons/mail.svg) 50% 3px no-repeat;
+}
+
+.right-content {
+   padding: 15px;
+   order: 2;
+   width: 65%;
+   height: 100%;
+   flex-direction: column;
+   justify-content:space-between
+}
+
+.left-content__title{
+   justify-content: center;
+   margin: 0 0 16px;
+}
+
+
+
+.rs-logo{
+  background: center / contain no-repeat url(./img/svg/rss.svg) ;
+   width: 100%;
+   height: 65px;
+}
