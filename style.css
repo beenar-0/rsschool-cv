@@ -581,6 +581,11 @@ code * {
 
 }
 
+*:link{
+   content: "";
+   color:#424242;  
+}
+
 *:visited{
    content: "";
    color:#424242;
