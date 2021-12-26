@@ -529,3 +529,25 @@ footer {
 .code-example{
    margin: 0 0 0 15px;
 }
+
+.navigation{
+      border-top: 1px #002d5c solid;
+   border-bottom: 1px #002d5c solid ;
+   width: 100%;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+}
+
+.navigation li {
+   display: flex;
+   justify-content: space-between;
+   margin: 5px 0;
+  font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    color: rgb(66, 66, 66);
+
+}
