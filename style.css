@@ -581,7 +581,7 @@ code * {
 
 }
 
-*:link{
+a:link{
    content: "";
    color:#424242;  
 }
