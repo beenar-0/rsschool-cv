@@ -285,7 +285,7 @@ header * {
    content: '';
    width: 16px;
    height: 20px;
-   background: url(./img/icons/js.png) 50% no-repeat;
+   background: url(./img/icons/js-logo.png) 50% no-repeat;
    background-size: contain;
 }
 
